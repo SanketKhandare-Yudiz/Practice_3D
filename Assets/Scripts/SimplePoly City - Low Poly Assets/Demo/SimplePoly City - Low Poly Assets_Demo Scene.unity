@@ -23753,6 +23753,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.1007771, y: 2.2749863, z: 5.9657416}
   m_Center: {x: -0.0009114741, y: 1.132328, z: 0.13397203}
+--- !u!114 &652264355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652264348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dacdf23a9f264f2eac7121b265cd287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  turnSpeed: 5
+  waypoints:
+  - {fileID: 2054422523}
+  - {fileID: 22676807}
 --- !u!1001 &654185128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37277,6 +37294,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 652264352}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 652264355}
   m_SourcePrefab: {fileID: 100100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
 --- !u!1001 &1067884083
 PrefabInstance:
@@ -76486,7 +76506,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!1 &883107280168373597
 GameObject:
